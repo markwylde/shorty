@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %> - Quick View - GitLab Issue</title>
+</head>
+<body>
+  <h1><%= title %></h1>
+
+  <p><strong>Description</strong></p>
+  <div style="background-color: #fcffb7; border: 1px solid grey; padding: 5px;">
+    <p><%- formatMarkdown(description) %></p>
+  </div>
+
+  <p><strong>Created At</strong></p>
+  <p><%= created_at %></p>
+
+  <p><strong>Labels</strong></p>
+  <p>
+    <ul>
+      <% labels.forEach(label => { %>
+        <li><%= label %></li>
+      <% }) %>
+    </ul>
+  </p>
+
+  <p><strong>State</strong></p>
+  <p><%= state %></p>
+
+  <p><strong>Author</strong></p>
+  <p><img style="width: 16px; height: 16px;" src="<%= author.avatar_url %>" /> <%= author.name %></p>
+
+  <p><strong>Links</strong></p>
+  <ul>
+    <li><a href="<%= web_url %>">View this in gitlab</a></li>
+  </ul>
+</body>
+</html>

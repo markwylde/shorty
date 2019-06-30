@@ -1,0 +1,19 @@
+{
+  "name": "shorty-plugins-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "dockerode": "^2.5.8",
+    "ejs": "^2.6.2",
+    "got": "^9.6.0",
+    "marked": "^0.6.3",
+    "nedb": "^1.8.0",
+    "throttled-queue": "^1.0.5"
+  }
+}
