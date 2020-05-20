@@ -12,7 +12,7 @@
     "dockerode": "^2.5.8",
     "ejs": "^2.6.2",
     "got": "^9.6.0",
-    "marked": "^0.6.3",
+    "marked": "^0.7.0",
     "nedb": "^1.8.0",
     "throttled-queue": "^1.0.5"
   }
