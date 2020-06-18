@@ -9,7 +9,7 @@
   "author": "",
   "license": "GPL-3.0",
   "dependencies": {
-    "ejs": "^2.6.2",
+    "ejs": "^2.7.4",
     "got": "^9.6.0",
     "marked": "^0.8.2",
     "nedb": "^1.8.0",
