@@ -5,8 +5,8 @@ A plugable lookup service.
 ## Running
 
 ```sh
-git clone https://github.com/kevinsawicki/tray-example
-cd tray-example
+git clone https://github.com/markwylde/shorty
+cd shorty
 npm install
 npm start
 ```
