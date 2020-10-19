@@ -9,10 +9,10 @@
   "author": "",
   "license": "GPL-3.0",
   "dependencies": {
-    "dockerode": "^2.5.8",
-    "ejs": "^2.7.4",
-    "got": "^9.6.0",
-    "marked": "^1.1.1",
+    "dockerode": "^3.2.1",
+    "ejs": "^3.1.5",
+    "got": "^11.7.0",
+    "marked": "^1.2.0",
     "nedb": "^1.8.0",
     "throttled-queue": "^1.0.7"
   }
