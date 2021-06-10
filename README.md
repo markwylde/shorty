@@ -1,5 +1,7 @@
 # Shorty
 
+| **Archived**: As a few out of date dependencies, and it only really works nicely on a mac.
+
 A plugable lookup service.
 
 ## Running
