@@ -6,7 +6,7 @@ const assetsDirectory = path.join(__dirname, 'assets')
 let tray = undefined
 let window = undefined
 
-app.dock.hide()
+app.dock && app.dock.hide()
 
 ipcMain.on('toggle-window', (event, arg) => {
   toggleWindow()

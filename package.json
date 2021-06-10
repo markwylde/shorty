@@ -16,8 +16,7 @@
     "url": "https://github.com/markwylde/shorty/issues"
   },
   "devDependencies": {
-    "electron": "^10.1.3",
-    "electron-packager": "^15.1.0"
-  },
-  "dependencies": {}
+    "electron": "^13.1.2",
+    "electron-packager": "^15.2.0"
+  }
 }
